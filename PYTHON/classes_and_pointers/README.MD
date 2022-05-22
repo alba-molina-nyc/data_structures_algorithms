@@ -12,4 +12,8 @@ When you create a class you are creating your own data type
 
 - You can tell a function apart from a constructor with the keyword (self)
 
-# You will be using Classes for every single data structure you work with in this course
+###### You will be using Classes for every single data structure you work with in this course
+
+# Pointers
+
+- they work differently with different data types
