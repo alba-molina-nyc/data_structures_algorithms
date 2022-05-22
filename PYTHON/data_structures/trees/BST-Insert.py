@@ -16,12 +16,14 @@ class BinarySearchTree:
             return True
         temp = self.root
         while (True):
+# when node adding is equal to a node in the tree
             if new_node.value == temp.value:
                 return False
             if new_node.value < temp.value:
                 if temp.left is None:
                     temp.left = new_node
                     return True
+# this moves the temp variable down to the next node as you move down
                 temp = temp.left
             else: 
                 if temp.right is None:
