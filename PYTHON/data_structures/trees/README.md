@@ -106,3 +106,5 @@ Every node in the tree points to zero (no node) or two nodes
 3. You are going to now be one below of the root and in the direction that you decided based on steps 1 and 2 using the [temp variable]
 
 4. Take account of all of the edge cases i.e.) if the root is empty
+
+# Finding Minimum Value in ANY sub-tree
