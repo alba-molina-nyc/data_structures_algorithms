@@ -45,3 +45,5 @@ A collision happens when you put a key value pair at an address where there was 
 Is another popular way of dealing with collisions if you already have an existing key value pair, you will go down the list until you find an empty address and then insert the key value there
 
 - makes it so you do not have more than one at any address
+
+### Linked Lists inside - the hash table is the way we will be handling this in this class
