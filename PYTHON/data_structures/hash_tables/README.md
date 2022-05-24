@@ -47,3 +47,9 @@ Is another popular way of dealing with collisions if you already have an existin
 - makes it so you do not have more than one at any address
 
 ### Linked Lists inside - the hash table is the way we will be handling this in this class
+
+## Constructing Hash Tables
+
+1. always use prime number of addresses - because it increases the number of randomness and reduces collisions
+
+- all the constructor does for a hash table is build the list of addresses
