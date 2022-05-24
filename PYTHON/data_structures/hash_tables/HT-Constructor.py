@@ -29,3 +29,24 @@ my_hash_table.print_table()
 # real key is modules (%) which gives you the remainder when you divide 
 # if you divide any number by 7, it will give you a remainder of 6, and 0-6 is exactly our address base
 # once we calculate, we are going to get a number from 0-6 and that is our address we use to place the key value pair in the hash table
+
+
+# class HashTable:
+#     def __init__(self, size = 7):
+#         self.data_map = [None] * size
+
+#     def __hash(self, key):
+#         my_hash = 0
+#         for letter in key:
+#             my_hash = (my_hash + ord(letter) * 23) % len(self.data_map)
+#         return my_hash  
+
+#     def print_table(self):
+#         for i, val in enumerate(self.data_map): 
+#             print(i, ": ", val)
+
+        
+# my_hash_table = HashTable()
+
+# my_hash_table.print_table()
+
