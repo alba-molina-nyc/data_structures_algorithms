@@ -45,3 +45,17 @@ in CallStack.py we run a script that calls on three functions using a call stack
      ![breakPoint](https://i.imgur.com/WtZtTYp.png)
 
 # Factorial
+
+4!
+
+4 x 3 x 2 x 1
+
+4!
+
+4 x 3!
+
+3 x 2!
+
+2 x 1!
+
+1
