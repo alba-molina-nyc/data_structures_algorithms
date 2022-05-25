@@ -59,3 +59,5 @@ in CallStack.py we run a script that calls on three functions using a call stack
 2 x 1!
 
 1
+
+![factorial.py](https://i.imgur.com/H7KrZE1.png)

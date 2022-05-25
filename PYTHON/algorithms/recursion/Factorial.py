@@ -17,12 +17,13 @@ print(factorial(4))
 # then factorial(2) gets added next in the call stack
 # then factorial(1) gets added LASTLY for this example in the call stack
 # --
-# then you go through the call stack and stacks start at the top so it would go
+# then you go through the call stack and stacks start at the top so it would pop off all the factorials in order
 # factorial(1)
 # factorial(2)
 # factorial(3)
 # factorial(4) until we get to 24 which is the number we return 
 
+# when it returns 1, it is going to start popping off the first factorial from the call stack
 
 
 # def factorial(n):
